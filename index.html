@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chá de Panela | Taila & Gabriel</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4faf6;
+      background-image: 
+      url("imagens/ramo.png"), 
+      url("imagens/ramo.png"), 
+      url("imagens/ramo.png");
+      background-repeat: 
+      repeat-y, 
+      repeat-y, 
+      repeat-y;
+      background-size: 
+      240px auto, 
+      220px auto, 
+      180px auto; 
+      background-position: 
+      left top, 
+      140px top,
+      260px top;
+      background-blend-mode: normal;
+      color: #2f4f3e;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 5px;
+      color: #3f6b54;
+    }
+
+    header h3 {
+      font-weight: normal;
+      margin: 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6b8f7a;
+    }
+
+    .data-evento {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      background: #ffffff;
+      display: inline-block;
+      padding: 12px 25px;
+      border-radius: 30px;
+      box-shadow: 0 6px 15px rgba(47,79,62,0.15);
+    }
+
+    .imagem-capa {
+      width: 100%;
+      max-width: 650px;
+      border-radius: 20px;
+      margin: 30px auto;
+      display: block;
+      box-shadow: 0 10px 25px rgba(47,79,62,0.2);
+    }
+
+    .card {
+       background: #fff no-repeat bottom right;
+      background-size: 120px;.card 
+      background-blend-mode: multiply;
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(47,79,62,0.15);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #3f6b54;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      columns: 2;
+    }
+
+    ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    ul li:last-child {
+      border-bottom: none;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      ul {
+        columns: 1;
+      }
+    }
+
+    .imagem-detalhe {
+      display: block;
+      margin: 50px auto;
+      max-width: 420px;
+      width: 90%;
+      opacity: 0.85;
+    }
+
+    .lista-presentes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .presente {
+      text-align: center;
+      background: #f9fdfb;
+      border-radius: 14px;
+      padding: 15px;
+      box-shadow: 0 6px 15px rgba(47,79,62,0.1);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    .presente:hover {
+      transform: translateY(-4px);
+    }
+
+    .presente img {
+      max-width: 90px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .presente p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #3f6b54;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- TOPO -->
+    <header>
+      <h3>Aniversário & Chá de Panela</h3>
+      <h1>Taila & Gabriel</h1>
+
+      <div class="data-evento">
+        📅 18 de abril de 2026 &nbsp; | &nbsp; ⏰ 14h
+      </div>
+      </header>
+
+      <img src="./imagens/capa.jpg" alt="Teste" class="imagem-capa">
+
+    <div class="card">
+      <h2> Sobre o Evento</h2>
+      <p>
+        Vamos comemorar esse momento especial com muito amor, alegria
+        e boas energias. Sua presença é o nosso maior presente 💚
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Ideias de Presentes</h2>
+
+      <div class="lista-presentes">
+
+      <div class="presente">
+      <img src="imagens/presentes/dinheiro.png" alt="Dinheiro">
+      <p>Dinheiro</p>
+    </div>
+
+      <div class="presente">
+      <img src="imagens/presentes/panelas.png" alt="Jogo de panelas">
+      <p>Jogo de panelas</p>
+    </div> 
+
+      <div class="presente">
+      <img src="imagens/presentes/pratos.png" alt="Conjunto de pratos">
+      <p>Conjunto de pratos</p>
+    </div>
+
+      <div class="presente">
+      <img src="imagens/presentes/copos.png" alt="Conjunto de copos">
+      <p>Conjunto de copos</p>
+    </div>
+ 
+      <div class="presente">
+      <img src="imagens/presentes/tacas.png" alt="Conjunto de taças">
+      <p>Conjunto de taças</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/abridor.png" alt="Abridor de garrafas">
+      <p>Abridor de garrafas</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/talheres.png" alt="Talheres">
+      <p>Talheres</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/frigideira.png" alt="Frigideira">
+      <p>Frigideira</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/assadeiras.png" alt="Assadeiras">
+      <p>Assadeiras</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/potes.png" alt="Potes herméticos">
+      <p>Potes herméticos</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/toalhas.png" alt="Toalhas">
+      <p>Toalhas</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/liquidificador.png" alt="Liquidificador">
+      <p>Liquidificador</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/cooktop.png" alt="Cooktop">
+      <p>Cooktop</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/forno.png" alt="Forno elétrico">
+      <p>Forno elétrico</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/sanduicheira.png" alt="Sanduicheira">
+      <p>Sanduicheira</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/mixer.png" alt="Mixer">
+      <p>Mixer</p>
+    </div>
+
+      <div class="presente">
+      <img src="imagens/presentes/coberta.png" alt="Coberta">
+      <p>Coberta</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/lencol.png" alt="Lençol King">
+      <p>Lençol King</p>
+    </div> 
+      
+      <div class="presente">
+      <img src="imagens/presentes/colher.png" alt="Colheres de silicone">
+      <p>Colheres de silicone</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/pegador.png" alt="Pegador">
+      <p>Pegador</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/escorredor.png" alt="Escorredor inox">
+      <p>Escorredor inox</p>
+    </div>
+ 
+       <div class="presente">
+      <img src="imagens/presentes/tv.png" alt="TV">
+      <p>TV</p>
+    </div>
+
+      <div class="presente">
+      <img src="imagens/presentes/escorredorlouca.png" alt="Escorredor de louças">
+      <p>Escorredor de louças</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/tabua.png" alt="Tábua de passar roupa">
+      <p>Tábua de passar roupa</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/tabua.png" alt="Tábua de cortar">
+      <p>Tábua de cortar</p>
+    </div>
+
+      <div class="presente">
+      <img src="imagens/presentes/varal.png" alt="Varal">
+      <p>Varal</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/ferro.png" alt="Ferro de passar">
+      <p>Ferro de passar</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/kitbanheiro.png" alt="Kit Banheiro">
+      <p>Kit Banheiro</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/tapete.png" alt="Tapete">
+      <p>Tapetes</p>
+    </div> 
+      
+      <div class="presente">
+      <img src="imagens/presentes/cabide.png" alt="Cabides">
+      <p>Cabides</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/espelho.png" alt="Espelho">
+      <p>Espelho</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/extensao.png" alt="Extensão de tomadas">
+      <p>Extensão de tomadas</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/panoprato.png" alt="Pano de prato">
+      <p>Pano de prato</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/kitchurrasco.png" alt="Kit Churrasco">
+      <p>Kit Churrasco</p>
+    </div>
+      
+      <div class="presente">
+      <img src="imagens/presentes/roupa.png" alt="Roupas em geral">
+      <p>Roupas em geral</p>
+    </div>
+     
+      <div class="presente">
+      <img src="imagens/presentes/jarradesuco.png" alt="Jarra de suco">
+      <p>Jarra de suco</p>
+    </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Com carinho, Taila & Gabriel 💕</p>
+    </div>
+
+  </div>
+</body>
+</html>
